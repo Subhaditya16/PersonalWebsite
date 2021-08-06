@@ -1,0 +1,82 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Charmonman', cursive;
+  font-size: 7rem;
+}
+
+h2 {
+  padding: 5% 5%;
+}
+
+.icon{
+  padding-right: 2%;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  color: #fff;
+  background: linear-gradient(to right, skyblue, blue);
+}
+
+.white-section {
+  background: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-family: "Montserrat-Light";
+}
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 14% 8.5%;
+}
+
+.circle-img {
+  border-radius: 50%;
+}
+
+.skills-img {
+  width: 60%;
+}
+
+.title-image {
+  border: solid;
+  border-color: white;
+}
+
+.social-icon {
+  color: white;
+  font-size: 2rem;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
